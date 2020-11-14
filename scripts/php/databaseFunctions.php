@@ -5,7 +5,7 @@
             'host' => 'localhost',
             'user' => 'root',
             'pass' => '',
-            'name' => 'zaglebie2'
+            'name' => 'edysp2'
         ];
     }
 

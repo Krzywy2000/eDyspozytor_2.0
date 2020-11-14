@@ -1,11 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-md sticky-top navbar-dark">
 
-        <a class="navbar-brand">
-            <?php
-                echo "Zagłębie Gorzowskie";
-            ?>
-        </a>
+        <a class="navbar-brand">eDyspozytor</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
         </button>

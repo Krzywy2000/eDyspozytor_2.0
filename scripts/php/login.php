@@ -4,7 +4,7 @@
     $login = $_POST['login'];
     $password = $_POST['password'];
 
-    include("functions.php");
+    include("databaseFunctions.php");
 
     $connect = dbconnect();
 
