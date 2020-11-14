@@ -30,7 +30,7 @@
 
     <body>
         <?php
-            include("layout/headerPanel.php");
+            include("layout/header.php");
             $toInclude = isset($_GET['page']) ? $_GET['page'] : "main";
             include("pages/{$toInclude}.php");
             include("layout/footer.php");
