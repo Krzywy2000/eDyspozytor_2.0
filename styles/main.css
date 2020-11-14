@@ -1,0 +1,21 @@
+.section-container {
+    min-height: 50em;
+}
+.login-card {
+    margin: auto;
+    margin-top: 1em;
+    max-width: 35em;
+}
+.card-header {
+    background-color: brown !important;
+    color: white;
+}
+.navbar-dark {
+    background-color: #373737 !important;
+    border-bottom-style: solid;
+    border-color: brown;
+    border-width: 0.25em;
+}
+.btn-primary {
+    background-color: #373737 !important;
+}
