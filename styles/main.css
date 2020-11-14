@@ -3,10 +3,6 @@
 html, body {
     font-family: 'Quicksand', sans-serif;
 }
-
-.section-container {
-    min-height: 50em;
-}
 .login-card {
     margin: auto;
     margin-top: 1em;
@@ -16,18 +12,36 @@ html, body {
     background-color: brown !important;
     color: white;
 }
+.btn-primary {
+    background-color: #373737 !important;
+}
+
+/*--Navbar--*/
 .navbar-dark {
     background-color: #373737 !important;
     border-bottom-style: solid;
     border-color: brown;
     border-width: 0.25em;
 }
-.btn-primary {
+
+/*--Footer--*/
+.footer-dark {
     background-color: #373737 !important;
+    border-top-style: solid;
+    border-color: brown;
+    border-width: 0.25em;
+    color: white;
+    min-height: 5em;
+}
+
+/*--Section--*/
+.section {
+    min-height: 50em;
 }
 
 /*--Sidebar--*/
 .sidebar {
     background-color: #373737;
-    height: 1000px;
+    color: white;
+    min-height: 50em;
 }
