@@ -31,6 +31,7 @@
     <body>
         <?php
             include("layout/header.php");
+            include("layout/sidebar.php");
             $toInclude = isset($_GET['page']) ? $_GET['page'] : "main";
             include("pages/{$toInclude}.php");
             include("layout/footer.php");
