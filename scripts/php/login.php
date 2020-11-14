@@ -2,7 +2,7 @@
     session_start();
 
     $login = $_POST['login'];
-    $password = md5($_POST['password']);
+    $password = $_POST['password'];
 
     include("functions.php");
 
