@@ -2,14 +2,13 @@
     session_start();
     if(@$_SESSION['logged'] != true)
     {
-        header('Location: index.php?page=login');
+        header('Location: index.php');
         exit;
     }
 ?>
 
 <html lang="pl">
     <head>
-
         <title>eDyspozytor - Panel</title>
 
         <!--Scripts-->
@@ -27,14 +26,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta author="Wiktor Wiese, Paweł Żołnierzak">
             <meta name="keywords" content="">
-        
     </head>
 
     <body>
         <?php
             include("layout/headerPanel.php");
             $toInclude = isset($_GET['page']) ? $_GET['page'] : "main";
-            include("pages/panel/{$toInclude}.php");
+            include("pages/{$toInclude}.php");
             include("layout/footer.php");
         ?>
     </body>
