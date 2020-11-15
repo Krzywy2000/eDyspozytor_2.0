@@ -5,6 +5,8 @@
         header('Location: index.php');
         exit;
     }
+
+    include("scripts/php/functions.php");
 ?>
 
 <html lang="pl">

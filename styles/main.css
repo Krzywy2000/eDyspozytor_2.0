@@ -2,10 +2,13 @@
 
 html, body {
     font-family: 'Quicksand', sans-serif;
+    background: #ececec !important;
 }
+
+/*--Login--*/
 .login-card {
     margin: auto;
-    margin-top: 1em;
+    margin-top: 15em;
     max-width: 35em;
 }
 .card-header {
@@ -17,11 +20,19 @@ html, body {
 }
 
 /*--Navbar--*/
+
+.navbar-dark, .navbar-light {
+    border-bottom-style: solid;
+    border-width: 0.25em;
+    border-color: brown;
+}
 .navbar-dark {
     background-color: #373737 !important;
-    border-bottom-style: solid;
-    border-color: brown;
-    border-width: 0.25em;
+}
+
+.navbar-light {
+    background-color: white !important;
+    color: brown !important;
 }
 
 /*--Footer--*/
@@ -37,6 +48,7 @@ html, body {
 /*--Section--*/
 .section {
     min-height: 50em;
+    padding-top: 2% !important;
 }
 
 /*--Sidebar--*/
@@ -69,4 +81,21 @@ a {
 
 .body-container {
     overflow: hidden;
+}
+
+/*--Main--*/
+.main-window {
+    box-shadow: 5px 5px 10px;
+    border-radius: 20px;
+    min-height: 20em;
+    max-height: 40em;
+    margin-bottom: 20px !important;
+    background-color: white;
+}
+
+/*--Windows--*/
+.window-header {
+    padding: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid silver;
 }

@@ -1,7 +1,7 @@
 <div class="col">
     <nav class="navbar navbar-expand-md sticky-top navbar-dark">
 
-        <a class="navbar-brand">eDyspozytor</a>
+        <a class="navbar-brand">eDyspozytor</a><small class="text-muted">Wersja:</small><small class="text-muted"><?php echo version(); ?></small>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
         </button>
