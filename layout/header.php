@@ -1,4 +1,4 @@
-<header>
+<div class="col">
     <nav class="navbar navbar-expand-md sticky-top navbar-dark">
 
         <a class="navbar-brand">eDyspozytor</a>
@@ -22,4 +22,4 @@
         </div>
 
     </nav>
-</header>
+</div>

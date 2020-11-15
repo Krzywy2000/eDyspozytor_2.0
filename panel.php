@@ -29,22 +29,28 @@
     </head>
 
     <body>
-        <?php
-            include("layout/header.php");
-        ?>
-        <div class="row">
-            <?php
-                include("layout/sidebar.php");
-            ?>
-            <div class="col">
+        <div class="body-container">
+            <div class="row">
                 <?php
-                    $toInclude = isset($_GET['page']) ? $_GET['page'] : "main";
-                    include("pages/{$toInclude}.php");
+                    include("layout/header.php");
+                ?>
+            </div>
+            <div class="row">
+                <?php
+                    include("layout/sidebar.php");
+                ?>
+                <div class="col">
+                    <?php
+                        $toInclude = isset($_GET['page']) ? $_GET['page'] : "main";
+                        include("pages/{$toInclude}.php");
+                    ?>
+                </div>
+            </div>
+            <div class="row">
+                <?php
+                    include("layout/footer.php");
                 ?>
             </div>
         </div>
-        <?php
-            include("layout/footer.php");
-        ?>
     </body>
 </html>
