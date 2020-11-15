@@ -1,2 +1,2 @@
-<div class="col-12 footer-dark">
+<div class="col-12 footer-dark d-md-none">
 </div>
