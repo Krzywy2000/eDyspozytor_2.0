@@ -46,6 +46,27 @@ html, body {
     min-height: 55em;
 }
 
+.sidebar-block {
+    height: 5em;
+    border-bottom: 0.15em solid brown;
+    text-align: center;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.sidebar-block:hover {
+    background-color: #272727;
+}
+
+.sidebar-icons {
+    padding: 0;
+    margin: 0;
+}
+
 .body-container {
     overflow: hidden;
 }

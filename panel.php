@@ -15,10 +15,13 @@
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
             <script src="scripts/js/bootstrap.bundle.min.js"></script>
             <script src="https://use.fontawesome.com/68785a6878.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.js"></script>
 
         <!--Links-->
             <link rel="stylesheet" href="styles/main.css"/>
             <link rel="stylesheet" href="styles/bootstrap.min.css"/>
+            <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet"/>
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.css" rel="stylesheet"/>
 
         <!--Meta tags-->
             <meta charset="utf-8">
