@@ -11,10 +11,12 @@ html, body {
     margin-top: 15em;
     max-width: 35em;
 }
+
 .card-header {
     background-color: brown !important;
     color: white;
 }
+
 .btn-primary {
     background-color: #373737 !important;
 }
@@ -26,6 +28,7 @@ html, body {
     border-width: 0.25em;
     border-color: brown;
 }
+
 .navbar-dark {
     background-color: #373737 !important;
 }
@@ -33,6 +36,10 @@ html, body {
 .navbar-light {
     background-color: white !important;
     color: brown !important;
+}
+
+.header-element {
+    border-bottom: 1px solid brown!important;
 }
 
 /*--Footer--*/
@@ -65,13 +72,13 @@ html, body {
     padding-top: 10px;
 }
 
-a {
+.sidebar-block a {
     text-decoration: none !important;
     color: white !important;
 }
 
 .sidebar-block:hover {
-    background-color: #272727;
+    background-color: #272727;;
 }
 
 .sidebar-icons {
@@ -79,8 +86,29 @@ a {
     margin: 0;
 }
 
+.sidebar-footer {
+    position: relative !important;
+    text-align: center;
+}
+
 .body-container {
     overflow: hidden;
+}
+
+/*--Tabs--*/
+.tabs-main {
+    border-radius: 20px !important;
+    padding-right: 10px;
+}
+
+.nav-link:hover {
+    border-radius: 20px !important;
+}
+
+.active {
+    border-radius: 20px !important;
+    border-color: brown !important;
+    color: gray !important;
 }
 
 /*--Main--*/
@@ -89,8 +117,11 @@ a {
     border-radius: 20px;
     min-height: 20em;
     max-height: 40em;
-    margin-bottom: 20px !important;
     background-color: white;
+}
+
+.main-window-margin {
+    margin-bottom: 20px !important;
 }
 
 /*--Windows--*/
@@ -98,4 +129,68 @@ a {
     padding: 2em;
     padding-bottom: 1em;
     border-bottom: 1px solid silver;
+}
+
+.window-main {
+    height: 100%;
+    overflow: scroll;
+    padding-bottom: 5%;
+}
+
+.window-main a i {
+    text-decoration: none;
+}
+
+.window-footer {
+    border-top: 1px solid silver;
+    bottom: 0 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.window-footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+.window-footer a:hover {
+    color: brown;
+}
+
+/*--Table--*/
+.table-main {
+    width: 100%;
+}
+
+tr {
+    height: 40px;
+    border-bottom: 1px solid silver !important;
+}
+
+/*--Icons--*/
+.fa-wheelchair,.fa-snowflake, .fa-ticket-alt, .fa-info-circle, .fa-code {
+    color: brown;
+}
+
+.fa-info-circle {
+    visibility: visible;
+}
+
+.fa-info-circle:hover {
+    color: rgb(82, 21, 21);
+}
+
+/*--Button--*/
+.stock-list-button {
+    border-radius: 20px !important;
+    width: 100% !important;
+    padding: 10% !important;
+    margin: 30% 0 30% 0 !important;
+}
+
+/*--Modals--*/
+
+.legendary {
+    width: 100%;
 }

@@ -68,5 +68,3 @@
     function version(){
         echo "2.0.0";
     }
-
-?>
